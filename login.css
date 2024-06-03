@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(13, 158, 85);
+}
+.login{
+    background-color: rgb(189, 169, 155);
+    width: 20%;
+    height: 550px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.h2{
+    color: white;
+    font-size: 20px;
+}
+input{
+    margin: 30px;
+    display: flex;
+    width: 400px;
+    height: 100%;
+}

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="food.css">
+    <script src="script.js"></script>
+    <title>FOOD RECIPES</title>
+</head>
+<body>
+    <div class="header-navbar">
+        <h1>My Food Recipe</h1>
+        <a href="#home">home</a>
+        <a href="#food-categories">food categories</a>
+        <a href="#food-list">food list</a>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">My Account</button>
+            <div id="my dropdown" class="dropdown-content">
+                <a href="#">Logout</a>
+                <a href="#">View Account</a>
+            </div>
+        </div>
+    </div>
+    <div class="content-area">
+        <div id="home"class="home-area">
+            <div class="text-content">
+                <h2>Home</h2> 
+            <div class="grid-item-container"><center>
+                <p><h1>WELCOME TO MY FOOD RECIPE WEBSITE</h1><br>
+                <h3>Experience for yourself all great taste of the world 
+                    <br>just by one click.
+                </h3></p></center>    
+            </div>
+            </div>
+        </div>
+        </div>
+        <div id="food-categories"class="food-categories-area">
+            <div class="text-content">
+                <h2>food  categories</h2>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="pexels-chanwalrus-958545.jpg">
+                        <center>
+                            <h3>Ingredients List</h3>
+                            <p>This should be detailed and include 
+                            <br>important information to tell the user 
+                            <br>how much of each ingredient they
+                             <br>should be using. </p></center>
+                    </div>
+                    <div class="grid-item">
+                        <img src="pexels-chevanon-323682.jpg">
+                        <center>
+                            <h3>Food List</h3>
+                            <p>This is typically the name of the food
+                                 <br>the user will be making when they
+                                 <br>follow the recipe.</p>
+                        </center>
+                    </div>
+                    <div class="grid-item">
+                        <img src="pexels-janetrangdoan-892649.jpg">
+                        <center>
+                            <h3>Procedures</h3>
+                            <p>These are the steps the user should <br> take
+                                  and are numbered and odered 
+                                <br>chronologically in the way they <br> should be done.</p>
+                        </center>
+                    </div>
+                    <div class="grid-item">
+                        <img src="pexels-vanmalidate-769289.jpg">
+                        <center>
+                            <h3>Breakfast Recipes</h3>
+                            <button onclick="open">view list </button>
+                            <div class="popup" id="popup">
+                                <div class="content">
+
+                                </div>
+                                <span onclick="closepopup" &times;></span>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="grid-item">
+                        <img src="pexels-chanwalrus-958545.jpg">
+                        <center>
+                            <h3>Lunch Recipes</h3>
+                            <button onclick="open">view list </button>
+                            <div class="popup" id="popup">
+                                <div class="content">
+
+                                </div>
+                                <span onclick="closepopup" &times;></span>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="grid-item">
+                        <img src="pexels-chevanon-323682.jpg">
+                        <center>
+                            <h3>Dinner Recipes</h3>
+                            <button onclick="open">view list </button>
+                            <div class="popup" id="popup">
+                                <div class="content">
+
+                                </div>
+                                <span onclick="closepopup" &times;></span>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="grid-item">
+                        <img src="pexels-janetrangdoan-892649.jpg">
+                        <center>
+                            <h3>Appetizer Recipes</h3>
+                            <button onclick="open">view list </button>
+                            <div class="popup" id="popup">
+                                <div class="content">
+
+                                </div>
+                                <span onclick="closepopup" &times;></span>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="grid-item">
+                        <img src="pexels-vanmalidate-769289.jpg">
+                        <center>
+                            <h3>Dessert Recipes</h3>
+                            <button onclick="open">view list </button>
+                            <div class="popup" id="popup">
+                                <div class="content">
+
+                                </div>
+                                <span onclick="closepopup" &times;></span>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="grid-item">
+                        <img src="pexels-chanwalrus-958545.jpg"> <center>
+                            <h3>Fast Food Recipes</h3>
+                            <button onclick="popupopen">view list </button>
+                            <div class="popup" id="popup">
+                                <div class="content">
+                                </div>
+                                <span onclick="closepopup" &times;></span>
+                            </div>
+                        </center>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div id="food-list"class="food-list-area">
+            <div class="text-content">
+                <center>
+                    <div class="table-container">
+                        <center><h1>Food List</h1></center>
+                        <div class="but">
+                            <button>Add Recipe</button>
+                        </div>
+                        <input type="text" placeholder="search...">
+                        <table border="0">
+                            <thead class="tablehead">
+                                <tr>
+                                    <tr>
+                                        <th>Food ID</th>
+                                        <th>Recipe Image</th>
+                                        <th>Recipe Name</th>
+                                        <th>Categories</th>
+                                        <th>Action</th>
+                                    </tr>
+                                    <tr>
+                                    <td>1</td>
+                                    <td><img src="pexels-chanwalrus-958545.jpg"></td>
+                                    <td>French Toast</td>
+                                    <td>Breakfast</td>
+                                    <td><i class="fa fa-bars" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td><img src="pexels-chevanon-323682.jpg"></td>
+                                    <td>French Toast</td>
+                                    <td>Breakfast</td>
+                                    <td><i class="fa fa-bars" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td><img src="pexels-janetrangdoan-892649.jpg"></td>
+                                    <td>French Toast</td>
+                                    <td>Breakfast</td>
+                                    <td><i class="fa fa-bars" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td><img src="pexels-photo-1366630.webp"></td>
+                                    <td>French Toast</td>
+                                    <td>Breakfast</td> <td><i class="fa fa-bars" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td><img src="pexels-vanmalidate-769289.jpg"></td>
+                                    <td>French Toast</td>
+                                    <td>Breakfast</td>
+                                    <td><i class="fa fa-bars" aria-hidden="true"></i></td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td><img src="pexels-chanwalrus-958545.jpg"></td>
+                                    <td>French Toast</td>
+                                    <td>Breakfast</td>
+                                    <td><i class="fa fa-bars" aria-hidden="true"></i></td>
+                                </tr>
+                              </tr>
+                      </thead>
+                 </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

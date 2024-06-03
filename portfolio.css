@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'pompins',sans-serif;
+}
+.header-navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.header-navbar a{
+    color: azure;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.banner,
+.about-area,
+.service-area,
+.portfolio-area,
+.contact-area{
+    height: 100vh;
+}
+#home{
+    background-color: gray;
+}
+#about{
+    background-color: darkkhaki;
+}
+#services{
+    background-color: darkorchid;
+}
+#portfolio{
+    background-color: darksalmon;
+}
+#contact{
+    background-color: dodgerblue;
+}
+.text-content{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 90px;
+    color: azure;
+    text-shadow: 0 5px 10px black;
+}

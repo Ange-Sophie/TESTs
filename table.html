@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>table html</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(185, 218, 218);
+}
+.table-container{
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding: 0px 10px 100px;
+    overflow-y: scroll;
+
+    }
+    table{
+        align-items: center;
+        width:80%;
+        border-collapse: collapse;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        margin: 0px 200px 50px;
+        
+    }
+    td{
+        border-bottom: 1px solid #7d919e;
+        padding: 15px;
+        text-align: left;
+    }
+    h2{
+        position: center;
+        margin-top: 20px;
+        color: rgb(240, 6, 26);
+        font-size: 30px;
+        text-decoration: unset;
+        margin: 50px 30px 50px;
+    }
+    th{
+        background-color: black;
+        color: white;
+        padding: 15px;
+        text-align: left;
+    }
+   .update{
+        color: green;
+    }
+    .delete{
+        color: red;
+    }
+    </style>
+</head>
+<body>
+    <center>
+        <h2>MY HTML TABLE</h2>
+    </center>
+    <div class="table-container"></div>
+    <table border="0">
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Names</th>
+            <th>Address</th>
+            <th>Phone Number</th>
+            <th colspan="2">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>MUKAMANA Betty</td>
+            <td>Kigali</td>
+            <td>07845657899</td>
+            <td class="delete" >delete</td>
+            <td class="update">update</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>NYIRAHABIMANA Vivian</td>
+            <td>Kigali</td>
+            <td>0784567899</td>
+            <td class="delete">delete</td>
+            <td class="update">update</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>MUKANDORI Betty</td>
+            <td>Kigali</td>
+            <td>0784567899</td>
+            <td class="delete">delete</td>
+            <td class="update">update</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+</body>
+</html>

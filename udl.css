@@ -1,0 +1,79 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background-color: rgb(239, 245, 245);
+}
+.table-container{
+margin-top: 50px;
+align-items: center;
+display: flex;
+justify-content: center;
+height: 100%;
+padding: 0px 10px 100px;
+overflow-y: scroll;
+}
+table{
+   align-items: center;
+   width:80%;
+   border-collapse: collapse;
+   font-size: 1.5rem;
+   border-radius: 5px;
+   margin: 0px 200px 50px;
+   
+}
+td{
+padding: 15px;
+text-align: left;
+}
+h2{
+position: center;
+margin-top: 20px;
+color: rgb(3, 70, 9);
+font-size: 30px;
+text-decoration: unset;
+margin: 50px 30px 50px;
+}
+th{
+background-color: rgb(247, 244, 244);
+color: rgb(7, 0, 0);
+padding: 15px;
+text-align: left;
+}
+.Modify{
+color: green;
+}
+.Delete{
+color: rgb(255, 5, 5);
+}
+.navbar{
+    padding-left: 230px;
+    margin-top: 70px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    border-collapse: collapse;
+    background-color: rgb(42, 59, 42);
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#one{
+    color: white;
+    background-color: green;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+#two{
+    color: white;
+    background-color: rgb(233, 19, 19);
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
